@@ -1,8 +1,7 @@
-import numpy as np
-
 def syntax_vector(sentence: str) -> np.ndarray:
     """
-    Generate a dummy syntax vector from a sentence.
-    This is a placeholder for future KoOvenYellow logic.
+    Generate a syntax vector from a sentence.
+    Filters out non-printable characters.
     """
-    return np.array([ord(c) for c in sentence])[:10]
+    vector = np.array([ord(c) for c in sentence if c.isprintable()])[:10]
+    return vector
