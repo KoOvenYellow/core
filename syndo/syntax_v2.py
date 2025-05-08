@@ -6,4 +6,3 @@ def syntax_vector(sentence: str) -> np.ndarray:
     Filters out non-printable characters.
     """
     vector = np.array([ord(c) for c in sentence if c.isprintable()])[:10]
-    return vector
