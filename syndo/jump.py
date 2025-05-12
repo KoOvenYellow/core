@@ -1,6 +1,6 @@
 # jump.py
 import numpy as np
-from .syntax_core import syntax_vector  # ファイル名に応じて変更してね
+from .syntax import syntax_vector  # ファイル名に応じて変更してね
 
 def jump_probability(w1: str, w2: str, sigma: float = 1.0) -> float:
     """

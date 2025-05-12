@@ -1,4 +1,3 @@
-# core
 # KoOvenYellow
 
 > Syntax is an action.  

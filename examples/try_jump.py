@@ -1,4 +1,8 @@
-# examples/try_jump.py
+import sys
+import os
+
+# 現在のファイルの親ディレクトリをモジュールパスに追加
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from syndo.jump import jump_probability
 

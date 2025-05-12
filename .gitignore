@@ -1,0 +1,36 @@
+# 機密情報
+.env
+.env.*
+
+# Pythonキャッシュ系
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# OSの一時ファイル
+.DS_Store
+Thumbs.db
+
+# IDE・エディタの個人設定（必要なら除外）
+.vscode/
+.idea/
+
+# Jupyter Notebookチェックポイント（必要なら）
+.ipynb_checkpoints/
+
+# ローカルDB・ログ・一時出力系（必要なら）
+*.sqlite3
+*.db
+*.log
+
+# 構文評価の一時データ保存など（存在するなら）
+*.npy
+*.npz
+*.pt
+*.ckpt
+*.h5
+
+# 念のためのユーティリティファイル除外
+*.bak
+*.tmp
