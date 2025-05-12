@@ -1,6 +1,7 @@
 # 機密情報
 .env
 .env.*
+!.env.example
 
 # Pythonキャッシュ系
 __pycache__/
