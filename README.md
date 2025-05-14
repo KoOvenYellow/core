@@ -64,6 +64,7 @@ Execution is the echo of its intent.
 
 ## 📖 開発記録記事（note）
 構文野郎AIの開発経緯、設計思想、ジャンプ理論の背景について詳しく知りたい方はこちらをご覧ください：
+
 [構文野郎AI開発記録｜ジャンプを評価する装置はつくれるか？](https://note.com/rehacqaholic/n/n3785177d6617)
 
 
